@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    background-image: url(../images/bg2.jfif);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: 0px -1800px;
+}

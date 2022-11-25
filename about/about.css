@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: "Mali", cursive;
+    background-image: url(../images/bg.jfif);
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    padding: 0 20px;
+    box-shadow: 5px 5px 20px 2px #416677;
+    background-color: #a2d3f3;
+    position: sticky;
+
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.nav {
+    display: flex;
+    font-size: 2em;
+    color: #8e91b9;
+    background-color: #fee3ec;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 1px solid #fee3ec;
+    border-radius: 40px;
+    margin: 25px 30px;
+    text-align: center;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+
+.nav:hover {
+    color: aliceblue;
+    background-color: #fee3ec;
+    transform: scale(1.1);
+}
+
+.index {
+    margin-right: auto;
+}
+
+.home {
+    margin: 25px 20px;
+}

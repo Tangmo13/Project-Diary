@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Mali', cursive;
+    color: #fee3ec;
+    background-color: black;
+}
+
+.name {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    font-size: 8em;
+    transition: 1s;
+}
+
+.name:hover > h1 {
+    letter-spacing: 30px;
+}
+
+h3 {
+    font-size: 2em;
+    transition: 1s;
+}
+
+.name:hover > h3 {
+    letter-spacing: 10px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.welcome::before {
+    content: "";
+    background-image: url(../images/howls.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 5s;
+}
+
+.next {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 10em;
+    color: #a2d3f3;
+    background-color: #fee3ec;
+    text-decoration: none;
+    transition: all ease 1s;
+}
+
+.next:hover {
+    color: #fee3ec;
+    box-shadow: inset 600.5em 0 0 0 #a2d3f3;
+    stroke-dashoffset: -480;
+    font-size: 10em;
+}
