@@ -26,7 +26,6 @@ nav {
     background-color: #fee3ec;
     text-decoration: none;
     padding: 15px 20px;
-    border: 1px solid #fee3ec;
     border-radius: 40px;
     margin: 25px 30px;
     text-align: center;
@@ -35,8 +34,6 @@ nav {
 }
 
 .nav:hover {
-    color: aliceblue;
-    background-color: #fee3ec;
     transform: scale(1.1);
 }
 

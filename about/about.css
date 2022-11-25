@@ -19,6 +19,12 @@ nav {
     z-index: 2;
 }
 
+img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+}
+
 .nav {
     display: flex;
     font-size: 2em;
@@ -26,7 +32,6 @@ nav {
     background-color: #fee3ec;
     text-decoration: none;
     padding: 15px 20px;
-    border: 1px solid #fee3ec;
     border-radius: 40px;
     margin: 25px 30px;
     text-align: center;
@@ -35,8 +40,6 @@ nav {
 }
 
 .nav:hover {
-    color: aliceblue;
-    background-color: #fee3ec;
     transform: scale(1.1);
 }
 
@@ -46,4 +49,59 @@ nav {
 
 .home {
     margin: 25px 20px;
+}
+
+.container {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    width: 660px;
+    height: 400px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.about_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topic {
+    margin-bottom: 40px;
+    font-size: 1.75em;
+    color: #8e91b9;
+    background-color: #f1f1f1;
+    border: 10px dashed #fee3ec;
+    border-radius: 60px;
+    padding: 15px 40px;
+    box-shadow: 5px 5px 15px 0.25px #416677;
+}
+
+.topic > h1 {
+    margin: 0;
+}
+
+.info {
+    margin: 40px;
+    font-size: 1.75em;
+    color: #4b6774;
+    background-color: rgba(241, 241, 241, 0.6);
+    backdrop-filter: blur(2.5px);
+    padding: 5px 45px;
+    border-radius: 80px;
+}
+
+.info > a:link,
+.info > a:visited
+{
+    text-decoration: none;
+    color: inherit;
 }
