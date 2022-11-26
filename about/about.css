@@ -58,6 +58,7 @@ img {
 .image {
     border-radius: 100px;
     overflow: hidden;
+    box-shadow: 5px 5px 15px 0.25px #416677;
 
     display: flex;
     justify-content: center;
@@ -111,10 +112,10 @@ img {
     color: #4b6774;
     background-color: rgba(241, 241, 241, 0.6);
     backdrop-filter: blur(2.5px);
-    padding: 10px 45px;
+    padding: 10px 60px;
     border-radius: 80px;
     width: auto;
-    height: auto;
+    height: fit-content;
 }
 
 .info > a:link,

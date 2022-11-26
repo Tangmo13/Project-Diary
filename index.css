@@ -36,8 +36,7 @@ h3 {
     height: 100vh;
 }
 
-.welcome::before {
-    content: "";
+.bg {
     background-image: url(./images/howls.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,6 +49,10 @@ h3 {
     opacity: 0.3;
     z-index: -1;
     transition: opacity 5s;
+}
+
+img {
+    width: 80px;
 }
 
 .next {

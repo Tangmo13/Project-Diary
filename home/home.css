@@ -77,8 +77,7 @@ nav {
     margin: 50px 60px;
 }
 
-.diary::before {
-    content: "";
+.diary-background {
     width: inherit;
     height: inherit;
     border-radius: 80px;

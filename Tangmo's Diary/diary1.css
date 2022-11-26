@@ -1,8 +1,134 @@
 body {
     margin: 0;
-    background-image: url(../images/bg2.jfif);
+    font-family: "Mali", cursive;
+    background-image: url(../images/bg.jfif);
     background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-size: cover;
-    background-position: 0px -1800px;
+    background-size: 1700px;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    padding: 0 20px;
+    box-shadow: 5px 5px 20px 2px #416677;
+    background-color: #a2d3f3;
+    position: sticky;
+
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+}
+
+.nav {
+    display: flex;
+    font-size: 2em;
+    color: #8e91b9;
+    background-color: #fee3ec;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 40px;
+    margin: 25px 30px;
+    text-align: center;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+
+.nav:hover {
+    transform: scale(1.1);
+}
+
+.index {
+    margin-right: auto;
+}
+
+.home {
+    margin: 25px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7vh 10vh;
+}
+
+.content_img {
+    object-fit: cover;
+    height: inherit;
+}
+
+.text_wrap {
+    width: 40vh;
+    height: inherit;
+}
+
+.box {
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 60px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.header {
+    width: 80%;
+    height: 30vh;
+}
+
+.description {
+    padding: 20px;
+    width: 80%;
+    height: fit-content;
+    box-sizing: border-box;
+    color: #53567a;
+    box-shadow: 5px 5px 20px 1px #416677;
+}
+
+.date {
+    margin: 0;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    background-color: #fee3ec;
+    color: #a2d3f3;
+}
+
+.date h3,
+p {
+    margin: 0;
+}
+
+.date h3 {
+    font-size: 2em;
+}
+
+@media screen and (max-width:460px) {
+    .nav {
+        font-size: 4vw;
+    }
+
+    nav {
+        padding-left: 0;
+    }
+
+    .index {
+        margin-right: 20px;
+    }
 }
