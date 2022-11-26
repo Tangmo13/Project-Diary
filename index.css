@@ -38,7 +38,7 @@ h3 {
 
 .welcome::before {
     content: "";
-    background-image: url(../images/howls.gif);
+    background-image: url(./images/howls.gif);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
