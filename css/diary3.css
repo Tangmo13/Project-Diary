@@ -23,7 +23,7 @@ img {
     /* object-fit: cover; */
     width: inherit;
     /* height: inherit; */
-    object-position: 0 -45vh;
+    object-position: 0 -100px;
 }
 
 .nav {
