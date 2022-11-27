@@ -90,6 +90,18 @@ img {
     box-shadow: 5px 5px 20px 1px #416677;
     font-size: 1.25em;
     text-indent: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.description h3 {
+    color: #416677;
+    font-size: 1.5em;
+    margin-top: 0;
+    text-indent: 0;
 }
 
 .date {
