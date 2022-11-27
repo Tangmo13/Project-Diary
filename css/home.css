@@ -50,7 +50,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 80px;
+    margin: 80px;
 }
 
 .content_card {
@@ -112,7 +112,7 @@ nav {
     overflow: hidden;
 }
 
-.calendar {
+/* .calendar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -140,7 +140,7 @@ nav {
 .calendar_list:hover {
     background-color: #fee3ec;
     transform: scale(1.1);
-}
+} */
 
 #image_1 {
     width: 100%;
