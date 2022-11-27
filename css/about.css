@@ -111,7 +111,7 @@ img {
     font-size: 1.3em;
     color: #4b6774;
     background-color: rgba(241, 241, 241, 0.6);
-    backdrop-filter: blur(2.5px);
+    /* backdrop-filter: blur(2.5px); */
     padding: 10px 60px;
     border-radius: 80px;
     width: auto;
@@ -132,4 +132,35 @@ a > p {
 a:hover > p {
     color: #8e91b9;
     transform: scale(1.3);
+}
+
+.summary {
+    margin: 60px;
+    font-size: 1.75em;
+    color: #8e91b9;
+    background-color: #fee3ec;
+    border-radius: 60px;
+    padding: 20px 40px;
+    box-shadow: 5px 5px 15px 0.25px #416677;
+    transition: all ease 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary a {
+    color: #8e91b9;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.summary img {
+    width: 30px;
+    padding: 10px;
+
+}
+
+.summary:hover {
+    transform: scale(1.2);
 }

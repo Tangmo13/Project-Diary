@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/rab_icon.png">
+    <link rel="stylesheet" href="../css/summary.css">
+    <title>CSS References</title>
+</head>
+
+<body>
+    <nav>
+        <a class="nav index" href="../index.html">My Diary</a>
+        <a class="nav home" href="../html/home.html">Home</a>
+        <a class="nav home" href="../html/about.html">About</a>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>CSS References</h1>
+        </div>
+        <div class="z-index">
+            <h2>Z-index</h2>
+            <p>z-index คือตัวกำหนดจัดการ การซ้อนทับของ layout ในแกน z
+                ยิ่งค่าของ z-index เป็นบวกจะเป็นการซ้อน element ไว้อยู่ชั้นบน ๆ
+                แต่ถ้าค่าของ z-index เป็นลบก็จะเป็นการซ้อน element ไว้อยู่ชั้นล่าง ๆ </p>
+            <p>ซึ่ง element ที่สามรถใช้ z-index ได้ต้องมีการกำหนด position ตัวใดตัวหนึ่ง ดังนี้
+            <ul>
+                <li>position: relative || absolute || fixed || sticky ;</li>
+                <li>z-index: auto || number</li>
+            </ul>
+            </p>
+            <p>แหล่งอ้างอิง : <a href="https://getcodecamp.com/2020/07/18/css-z-index/">Z-index By : pairin keawkuay</a></p>
+        </div>
+        <div class="transform">
+            <h2>Transform</h2>
+            <p>transform คือ การที่จะใส่เอฟเฟ็กต่าง ๆ ให้แก่ element โดยมีวิธีดังนี้</p>
+            <ul>
+                <li>translate() - การย้าย element ไปตำแหน่งที่กำหนด</li>
+                <li>rotate() - การหมุน element</li>
+                <li>scale() - การย่อขยาย element</li>
+                <li>skewX() - ทำให้เอียงในแนวนอน</li>
+                <li>skewY() - ทำให้เอียงในแนวตั้ง</li>
+                <li>matrix() - เป็นการรวม transform ทั้งหมดยกเว้น rotate เข้าด้วยกันในบรรทัดเดียว<br>
+                โดยเขียนได้ดังนี้ matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())</li>
+            </ul>
+            <p>ข้อควรระวัง! การใช้ transform แบบผสม การเรียงลำดับ values ที่ต่างกัน จะให้ผลลัพธ์ต่างกัน</p>
+            <p>แหล่งอ้างอิง : <a href="https://zakoschool.herokuapp.com/lesson/css/transform">Transform By : zakoschool</a></p>
+        </div>
+        <div class="transition">
+            <h2>Transition</h2>
+            <p>transition เป็นสิ่งที่ช่วยให้การเปลี่ยนค่าต่าง ๆ ของ element เป็นไปอย่างราบรื่น</p>
+            <ul>
+                <li>transition-property - กำหนด property ที่ต้องการใช้ transition</li>
+                <li>transition-duration - กำหนดระยะเวลาในการ transition</li>
+                <li>transition-timing-function - กำหนดรูปแบบการเร่งความเร็วของ transition</li>
+                <li>transition-delay - กำหนดความล่าช้าของ transition</li>
+                <li>transition - กำหนด transition รวมกันเป็นบรรทัดเดียว<br>
+                โดยใส่ค่าตามนี้ property duration timing-function delay โดย timing-function และ delay ไม่จำเป็นต้องกำหนดก็ได้</li>
+            </ul>
+            <p>แหล่งอ้างอิง : <a href="https://zakoschool.herokuapp.com/lesson/css/transition">Transition By : zakoschool</a></p>
+        </div>
+        <div class="object-fit">
+            <h2>Object-fit</h2>
+            <p>object-fit คือ การกำหนดให้ < img > หรือ < video > ปรับขนาดตาม container โดยสามารถกำหนดได้ดังนี้</p>
+            <ul>
+                <li>fill - เป็นค่าเริ่มต้น ภาพจะถูกปรับขนาดให้เต็มมิติที่กําหนด หากจําเป็นภาพจะถูกยืดหรือบีบให้พอดีกับกล่อง</li>
+                <li>contain - ภาพจะคงอัตราส่วนภาพไว้ แต่จะถูกปรับขนาดให้พอดีกับขนาดที่กําหนด เพียงด้านใดด้านหนึ่ง</li>
+                <li>cover - ภาพจะคงอัตราส่วนภาพไว้และเติมเต็มมิติที่กําหนด ภาพจะถูกตัดขอบออกเพื่อให้พอดีกับกล่อง</li>
+                <li>none - ภาพไม่ถูกปรับขนาด</li>
+                <li>scale-down - ภาพถูกลดขนาดลงเป็นเวอร์ชันที่เล็กที่สุดของ none หรือ contain</li>
+            </ul>
+            <p>แหล่งอ้างอิง : <a href="https://www.w3schools.com/css/css3_object-fit.asp">Object-fit By : w3schools</a></p>
+        </div>
+        <div class="user-select">
+            <h2>User-select</h2>
+            <p>user-select คือ property ที่ใช้สำหรับป้องกันการ select ในบราวเซอร์ที่ใช้เอนจิ้นท์ Webkit และ Firefox และตั้งค่า cursor เป็นลูกศรแบบดีฟอลต์แทนที่จะเป็น cursor ที่ใช้สำหรับการ select เพื่อเลี่ยงการดับเบิ้ลคลิกเลือกหรือไฮไลต์ที่ข้อความได้ ส่วนใหญ่จะใช้เพื่อป้องกันการ copy ข้อความ</p>
+            <p>แหล่งอ้างอิง : <a href="https://code.tutsplus.com/th/tutorials/getting-to-work-with-css3-power-tools--net-13894">User-select By : Devon Govett</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
