@@ -23,7 +23,7 @@ img {
     object-fit: cover;
     width: inherit;
     height: inherit;
-    object-position: 0 -120px;
+    object-position: 0 -80px;
 }
 
 .nav {

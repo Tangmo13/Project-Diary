@@ -20,9 +20,9 @@ nav {
 }
 
 img {
-    /* object-fit: cover; */
+    object-fit: cover;
     width: inherit;
-    /* height: inherit; */
+    height: inherit;
     object-position: 0 -45vh;
 }
 

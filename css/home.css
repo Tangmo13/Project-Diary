@@ -81,7 +81,7 @@ nav {
     width: inherit;
     height: inherit;
     border-radius: 80px;
-    background-image: url(../images/bg4.jfif);
+    background-image: url(../images/bg1.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -15vh;
@@ -124,11 +124,6 @@ nav {
     overflow: hidden;
 }
 
-/* .calendar_topic {
-    display: flex;
-    color: #000;
-} */
-
 .calendar_list {
     display: flex;
     flex-wrap: wrap;
@@ -157,21 +152,21 @@ nav {
 #image_2 {
     width: 100%;
     position: relative;
-    bottom: 300px;
+    bottom: 100px;
     height: auto;
 }
 
 #image_3 {
     width: 100%;
     position: relative;
-    bottom: 300px;
+    bottom: 260px;
     height: auto;
 }
 
 #image_4 {
     width: 100%;
     position: relative;
-    bottom: 300px;
+    bottom: 330px;
     height: auto;
 }
 
@@ -185,6 +180,6 @@ nav {
 #image_6 {
     width: 100%;
     position: relative;
-    bottom: 300px;
+    bottom: 70px;
     height: auto;
 }
